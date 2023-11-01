@@ -34,7 +34,7 @@ router.post("/signup", async (req, res) => {
     html: `
         <div>
         <strong>${req.body.email}</strong>, we welcome to out platform, 
-        <a style="background-color: yellow; color:black;" href="https://6542338a9b376d150b2ae0b8--stunning-mermaid-2218dd.netlify.app/user/verify/${token}">Verify Email</a>
+        <a style="background-color: yellow; color:black;" href="https://stunning-mermaid-2218dd.netlify.app/user/verify/${token}">Verify Email</a>
         <div style="background-color: gray;">
         <img width="300px" height="150px" src="https://cdn.logo.com/hotlink-ok/logo-social.png" />
         </div>
